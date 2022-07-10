@@ -4,6 +4,9 @@ source "https://rubygems.org"
 
 gem "sinatra", github: "sinatra/sinatra"
 
+group :development, :test do
+  gem "rspec"
+end
 group :development do
   gem "lefthook", require: false
   gem "solargraph", require: false
