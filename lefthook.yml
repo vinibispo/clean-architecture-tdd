@@ -1,0 +1,7 @@
+pre-commit:
+  parallel: true
+  commands:
+    standardrb:
+      tags: backend style
+      glob: "*.rb"
+      run: "bundle exec standardrb --fix"
