@@ -13,3 +13,7 @@ group :development do
   gem "standard"
   gem "tapioca", require: false
 end
+
+group :test do
+  gem "simplecov", require: false
+end
